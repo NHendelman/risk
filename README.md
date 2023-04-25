@@ -128,7 +128,7 @@ Dijkstra's algorithm finds shortest paths in a graph where the nodes or edges ha
 The key idea is that Dijkstra's algorithm uses a priority queue instead of a queue to keep track of these weights.
 
 You will use Dijkstra's algorithm to implement the `cheapest_attack_path` function.
-The pseudocode follows the same pattern as the BFS pseudocode,
+The pseudocode follows the same pattern as the BFS pseudocode
 but is modified to use a priority queue instead of a regular queue:
 ```
     Create a dictionary whose keys are territories and values are path
